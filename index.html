@@ -1,103 +1,178 @@
-
-<html><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building with the new Clay 🧱 ✨</title>
+    <meta name="description" content="Building with the new Clay.">
 
     <!-- Nat and Daniel - thanks for the HTML. -->
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
-    
-    <style>
-        :root {
-            --homepage-url: 'https://clayvc.io';
-        }
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+    <link rel="canonical" href="https://clayvc.io/">
 
-        body {
-            line-height: 1.4;
-            font-size: 16px;
-            padding: 0 25px;
-            margin: 25px auto;
-            max-width: 650px; 
-            font-family: 'Courier New', sans-serif;
-        }
-
-        ul {
-            margin-top: 0px;
-            margin-left: 0;
-            padding-left: 0;
-        }
-
-        #maincontent {
-            max-width: 38em;
-            margin: 15 auto;
-            margin-top: 70px;
-        }
-
-        h2 {
-            margin-bottom: 0px;
-        }
-
-        h3 {
-            margin-bottom: 0px;
-        }
-    </style>
-
-    <title>Building with the new Clay 🧱 ✨ </title>
-
-    <meta name="description" content="Building with the new Clay">
-  
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="var(--homepage-url)">
+    <meta property="og:url" content="https://clayvc.io/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Clay VC">
     <meta property="og:description" content="Building with the new Clay.">
-  
+
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content=""var(--homepage-url)"">
-    <meta property="twitter:url" content=""var(--homepage-url)"">
+    <meta property="twitter:domain" content="clayvc.io">
+    <meta property="twitter:url" content="https://clayvc.io/">
     <meta name="twitter:title" content="Clay VC">
     <meta name="twitter:description" content="Building with the new Clay.">
 
-    <meta name="description" content="Building with the new Clay.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer="" data-domain=""var(--homepage-url)"" src="https://plausible.io/js/plausible.js"></script>
-    <link rel="canonical" href=""var(--homepage-url)"">
+    <script defer data-domain="clayvc.io" src="https://plausible.io/js/plausible.js"></script>
 
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        body {
+            line-height: 1.5;
+            font-size: 16px;
+            padding: 0 25px;
+            margin: 25px auto;
+            max-width: 800px;
+            font-family: 'Courier New', monospace;
+            overflow-wrap: break-word;
+        }
+
+        #maincontent {
+            max-width: 100%;
+            margin: 70px auto 0;
+        }
+
+        h2,
+        h3 {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-left: 0;
+            padding-left: 1.25em;
+            list-style-position: outside;
+        }
+
+        li {
+            margin-bottom: 0.4em;
+        }
+
+        /* Keep company names together; descriptions can wrap normally. */
+        li a {
+            white-space: nowrap;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0 0.6em;
+        }
+
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            max-width: 100%;
+        }
+
+        a:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 3px;
+        }
+
+        .logo {
+            width: 70%;
+            max-width: 455px;
+            height: auto;
+            display: block;
+            margin: 2rem auto 0;
+        }
+
+        .tagline {
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 0 20px;
+                margin: 20px auto;
+                line-height: 1.6;
+            }
+
+            #maincontent {
+                margin-top: 32px;
+            }
+
+            h2 {
+                font-size: 1.35em;
+                line-height: 1.3;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .contact-links .separator {
+                display: none;
+            }
+
+            .contact-links a {
+                width: 100%;
+            }
+
+            li {
+                margin-bottom: 0.75em;
+            }
+
+            /* Allow names to reflow if the user enlarges their text. */
+            li a {
+                white-space: normal;
+            }
+        }
+    </style>
 </head>
-
 
 <body>
     <div id="maincontent">
+        <h2>Building with the new Clay 🧱 ✨</h2>
 
-        <h2>Building with the new Clay 🧱 ✨ </h2>
+        Clay backs founders building products and technology that animate and reshape our lives and the world around us.
 
-        Clay backs founders building products and technology that animate and reshape our lives and the world around us. 
-        
         <br><br>
-        
-        We invest as early as possible with high conviction. 
+
+        We invest as early as possible with high conviction.
 
         <br><br>
 
         We're excited by exceptional people and next-generation products that fundamentally change the way we create, consume and interact.
-        
+
         <br><br>
-        
-        <a href="https://airtable.com/appDPLB8hNQzh9NYd/pagruBPND0dOAseaJ/form">Invest with us</a> / 
 
-        <a href="https://airtable.com/applofxbwkwQHTlf7/pagIyVtZkXgT2t4l5/form">Apply for investment</a> /
+        <nav class="contact-links" aria-label="Get involved">
+            <a href="https://airtable.com/appDPLB8hNQzh9NYd/pagruBPND0dOAseaJ/form">Invest with us</a>
+            <span class="separator" aria-hidden="true">/</span>
+            <a href="https://airtable.com/applofxbwkwQHTlf7/pagIyVtZkXgT2t4l5/form">Apply for investment</a>
+            <span class="separator" aria-hidden="true">/</span>
+            <a href="https://airtable.com/applofxbwkwQHTlf7/pagAJRAHUE0HYCRd0/form">Build Clay with us</a>
+        </nav>
 
-        <a href="https://airtable.com/applofxbwkwQHTlf7/pagAJRAHUE0HYCRd0/form">Build Clay with us</a>
-
-        <h3> Our thesis</h3>
+        <h3>Our thesis</h3>
 
         Today’s digital tools require creators to specify every detail of what we see, hear and feel.
 
         <br><br>
 
         But the future is coming - and it will be different 🚀.
-
         Adaptivity will become a basic principle of the digital experience. Tomorrow’s tools will augment our capacity for expression by listening to, learning from and responding to us in real-time.
 
         <br><br>
@@ -109,34 +184,26 @@
         <h3>Our investments</h3>
 
         <ul>
-            
-            <li> <a href="https://elevenlabs.io">Eleven Labs</a>. class-leading text-to-speech </li>
-            <li> <a href="https://www.liminal.gg/">Liminal Experiences</a>. AI-powered storytelling through play [inactive] </li>
-            <li> <a href="https://www.heycurio.com/">Curio</a>. AI-powered toys </li>
-            <li> <a href="https://www.loci.ai/">Loci AI</a>. automated cataloguing for 3D models [acquired] </li>
-            <li> <a href="https://toongether.ai/">Kartoon AI</a>. UGC comics with AI-powered creator tools [inactive] </li>
-            <li> <a href="https://usedialtone.com/">Dialtone</a>. AI agents for entertprise </li>    
-            <li> <a href="https://www.ainia.ai/">Ainia AI</a>. AI-enabled EdTech platform for kids </li>
-            <li> <a href="https://dex.camera/">Dex</a>. the learning camera </li>
-            <li> <a href="https://atelico.studio/">Studio Atelico</a>. on-device AI engines for games </li>
-            <li> <a href="https://www.nitrode.com/">Nitrode</a>. Cursor for game dev </li>
-            <li> <a href="https://raven.computer/">Raven Resonance</a>. an open AR compute platform </li>
-            <li> <a href="https://cursive.ai/">Cursive</a>. frontier intelligence for a human-aligned internet* </li>
-            <li> <a href="https://heycurio.com/">Curio</a>. AI-powered toys </li> [again] 
-            <li> <a href="https://6over3.com/">6over3 Institute</a>. building the search engine for life </li>
-            <li> <a href="https://herlabs.io/">Her Labs</a>. marketing agents for consumer brands </li>
-            <li> <a href="https://subliminal.inc/">Subliminal Labs</a>. optimizing businesses with frontier AI </li>
-            
+            <li><a href="https://elevenlabs.io">Eleven Labs</a>. class-leading text-to-speech</li>
+            <li><a href="https://www.liminal.gg/">Liminal Experiences</a>. AI-powered storytelling through play [inactive]</li>
+            <li><a href="https://www.heycurio.com/">Curio</a>. AI-powered toys</li>
+            <li><a href="https://www.loci.ai/">Loci AI</a>. automated cataloguing for 3D models [acquired]</li>
+            <li><a href="https://toongether.ai/">Kartoon AI</a>. UGC comics with AI-powered creator tools [inactive]</li>
+            <li><a href="https://usedialtone.com/">Dialtone</a>. AI agents for enterprise</li>
+            <li><a href="https://www.ainia.ai/">Ainia AI</a>. AI-enabled EdTech platform for kids</li>
+            <li><a href="https://dex.camera/">Dex</a>. the learning camera</li>
+            <li><a href="https://atelico.studio/">Studio Atelico</a>. on-device AI engines for games</li>
+            <li><a href="https://www.nitrode.com/">Nitrode</a>. Cursor for game dev</li>
+            <li><a href="https://raven.computer/">Raven Resonance</a>. an open AR compute platform</li>
+            <li><a href="https://cursive.ai/">Cursive</a>. frontier intelligence for a human-aligned internet*</li>
+            <li><a href="https://heycurio.com/">Curio</a>. AI-powered toys [again]</li>
+            <li><a href="https://6over3.com/">6over3 Institute</a>. building the search engine for life</li>
+            <li><a href="https://herlabs.io/">Her Labs</a>. marketing agents for consumer brands</li>
+            <li><a href="https://subliminal.inc/">Subliminal Labs</a>. optimizing businesses with frontier AI</li>
         </ul>
-        
-        </li></ul>
+    </div>
 
-    </div>
-<img src="Clay_Logo_v2.png" alt="Clay VC logo"
-     style="width:70%;display:block;margin:2rem auto 0;"
-<p align="center">
-    From London, Worldwide        
-</p>            
-            
-    </div>
-</body></html>
+    <img src="Clay_Logo_v2.png" alt="Clay VC logo" class="logo">
+    <p class="tagline">From London, Worldwide</p>
+</body>
+</html>
